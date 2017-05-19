@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AutoSpotty</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_start">Start</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_activity_add_reminder">AddReminder</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_emergency">EmergencyActivity</string>
+    <string name="title_activity_send_message">SendMessage</string>
+
+</resources>

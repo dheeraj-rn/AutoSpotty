@@ -1,0 +1,65 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SendMessageActivity"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Phone 1"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text1"
+        android:layout_alignLeft="@+id/buttonSendMessage"
+        android:ems="10"
+        android:layout_marginRight="20dip"
+        android:inputType="phone" >
+        
+        <requestFocus />
+     </EditText>
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text1"
+        android:textStyle="bold"
+        android:layout_marginTop="26dp"
+        android:padding="10sp"
+        android:text="Phone 2"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/editTextPhoneNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Text2"
+        android:layout_toRightOf="@+id/Text2"
+        android:ems="10"
+        android:layout_marginRight="20dip"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/buttonSendMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextPhoneNumber2"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/Text2"
+        android:text="Send SMS" />
+    
+</RelativeLayout>
