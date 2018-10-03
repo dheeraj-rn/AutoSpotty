@@ -3,8 +3,6 @@ package com.example.autospotty;
 import java.util.Calendar;
 import java.util.Vector;
 
-
-
 import com.example.autospotty.database.DbUtils;
 import com.example.autospotty.service.getReverseGeoCoding;
 import com.google.android.gms.maps.CameraUpdateFactory;
